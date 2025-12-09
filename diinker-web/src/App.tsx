@@ -1,5 +1,5 @@
 import NavBar from "./components/NavBar";
-import HeroSection from "./components/HeroSection";
+import HeroSection from "./components/Heros/HomeHero";
 import PromoSection from "./components/PromoSection";
 import Footer from "./components/Footer";
 import HowItWorksSection from "./components/HowItWorks";
@@ -15,7 +15,7 @@ function App() {
       <HowItWorksSection />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

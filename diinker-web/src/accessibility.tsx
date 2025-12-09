@@ -1,5 +1,5 @@
-import AboutHero from "./components/Heros/AboutHero";
 // import Footer from "./components/Footer";
+import AccessibilityHero from "./components/Heros/AccessibilityHero";
 import NavBar from "./components/NavBar";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="min-h-dvh w-full bg-linear-to-b from-[#1f23d6] to-black">
       {/* HEADER */}
       <NavBar />
-      <AboutHero />
+      <AccessibilityHero />
       {/* MAIN CONTENT */}
       {/* <Footer /> */}
     </div>

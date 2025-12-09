@@ -1,4 +1,4 @@
-import ActionButtons from "./ActionButtons"
+// import ActionButtons from "./ActionButtons"
 import checkmark from "/assets/images/check-check.png";
 
 export default function HeroSection() {
@@ -7,11 +7,11 @@ export default function HeroSection() {
         
         {/* 🚀 APPLY text-center HERE or to the h1 directly */}
         <div className="text-center"> 
-          <h1 className="text-5xl md:text-6xl font-nature pb-2">Scoring, Simplified.</h1>
+          <h1 className="text-5xl md:text-6xl font-nature pb-2">Preferences</h1>
           <p className="text-xl flex flex-col items-center md:flex-row font-nature-light pb-5">
-            End the Score Debate. All from your paddle.
+            This is the really cool preferences page
           </p>
-          <ActionButtons />
+          {/* <ActionButtons /> */}
         </div>
         
         <div>

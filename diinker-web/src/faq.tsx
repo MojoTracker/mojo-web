@@ -1,4 +1,4 @@
-import AboutHero from "./components/Heros/AboutHero";
+import FAQHero from "./components/Heros/FAQHero";
 // import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 
@@ -7,7 +7,7 @@ function App() {
     <div className="min-h-dvh w-full bg-linear-to-b from-[#1f23d6] to-black">
       {/* HEADER */}
       <NavBar />
-      <AboutHero />
+      <FAQHero />
       {/* MAIN CONTENT */}
       {/* <Footer /> */}
     </div>
