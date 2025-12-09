@@ -4,7 +4,9 @@ export default function Navbar() {
   return (
     <div className="text-white flex flex-row justify-between bg-[#0000007c] h-20 rounded-b-2xl items-center px-10">
       <div className="text-3xl font-bold">
-        <p className="font-nature">Diinker</p>
+        <Link to="/">
+          <p className="font-nature">Diinker</p>
+        </Link>
       </div>
       <div className="text-lg flex flex-row gap-8 font-nature-light">
         <Link to="/download" className="hover:scale-105 transition duration-300 ease-in-out">
