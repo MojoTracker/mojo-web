@@ -103,7 +103,7 @@ export default function Footer() {
       </div>
       {/* COPYRIGHT STATEMENT */}
       <div className="flex flex-row justify-center pt-10">
-        <p>© 2025 Diinker | All Rights Reserved</p>
+        <p className="font-nature">© 2025 Diinker | All Rights Reserved</p>
       </div>
     </div>
   );

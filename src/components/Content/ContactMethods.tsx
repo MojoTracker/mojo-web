@@ -1,8 +1,8 @@
 export default function ContactForm() {
   return (
-    <div className="p-3 flex flex-col gap-2 2xl:w-120">
+    <div className="p-3 flex flex-col gap-3 2xl:w-120">
       {/* Contact Form */}
-      <div className="bg-[#ffffff11] border border-[#ffffff1c] text-white rounded-xl h-1/4 flex flex-row items-center justify-start px-4 gap-3">
+      <div className="bg-[#ffffff11] border border-[#ffffff1c] text-white rounded-xl h-1/4 flex flex-row items-center justify-start px-4 py-3 gap-3">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="50"
@@ -18,9 +18,9 @@ export default function ContactForm() {
           <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
           <rect x="2" y="4" width="20" height="16" rx="2" />
         </svg>
-        <p className="font-nature text-xl">Email us</p>
+        <p className="font-nature text-xl">Email Us</p>
       </div>
-      <div className="bg-[#ffffff11] border border-[#ffffff1c] text-white rounded-xl h-1/4 flex flex-row items-center justify-start px-4 gap-3">
+      <div className="bg-[#ffffff11] border border-[#ffffff1c] text-white rounded-xl h-1/4 flex flex-row items-center justify-start px-4 py-3 gap-3">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="50"
@@ -38,7 +38,7 @@ export default function ContactForm() {
         </svg>
         <p className="font-nature text-xl">Follow us on GitHub</p>
       </div>
-      <div className="bg-[#ffffff11] border border-[#ffffff1c] text-white rounded-xl h-1/4 flex flex-row items-center justify-start px-4 gap-3">
+      <div className="bg-[#ffffff11] border border-[#ffffff1c] text-white rounded-xl h-1/4 flex flex-row items-center justify-start px-4 py-3 gap-3">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="50"
